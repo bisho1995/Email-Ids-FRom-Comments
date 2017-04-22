@@ -2,7 +2,7 @@
 .youtube-video
 {
     max-width: 760px;
-    height: 30%;
+    height: 20%;
     width: 90%;
     max-height:413px;
     margin: 0px auto;
@@ -19,11 +19,6 @@
 
 .text-start
 {
-    transform: translate(-50%);
-    -moz-transform: translate(-50%);
-    -webkit-transform: translate(-50%);
-    -ms-transform: translate(-50%);
-    -o-transform: translate(-50%);
 }
 .text-start > section
 {
