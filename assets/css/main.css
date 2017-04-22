@@ -7,10 +7,9 @@
 }
 header
 {
-    background: rgba(44, 130, 201, 0.75);
     width: 100%;
     min-height: 80vh;
-    padding: 5%;
+    padding-top: 5%;
     text-align: center;
 }
 header h1
@@ -27,22 +26,14 @@ header h1
 }
 .youtube-video
 {
-    max-width: 760px;
-    height: 40%;
-    width: 60%;
-    max-height:413px;
-    margin: 0px auto;
-    position: absolute;
-    top: 350px;
-    left: 50%;
-    transform: translate(-50%);
+    margin-top: 4%;
+    width: 560px;
+    height: 315px;
 }
 .video
 {
     height: 100%;
-    width: 100%;
-    position: relative;
-    margin: 0px auto;    
+    width: 100%; 
 }
 section
 {
@@ -58,17 +49,15 @@ section
 {
     width: 100%;
     max-width: 850px;
-    padding-top: 300px;
 }
 header
 {
     background-image: url("../pic/background.jpg");
-    background-position: center;
+    /*background-position:0% -200%;*/
+    background-position-y: -50%;
     background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    
-    position: relative;
+    background-size: 100% 80%;
+    object-fit: contain;
 }
 article,section,div
 {
