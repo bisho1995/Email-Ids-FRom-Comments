@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+*{
+    
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+header
+{
+    background: rgba(44, 130, 201, 0.75);
+    width: 100%;
+    min-height: 80vh;
+    padding: 5%;
+    text-align: center;
+}
+header h1
+{
+    color: white;
+    margin: 3%;
+    font-size: 4.5em;
+}
+.btn
+{
+    font-size: 1.4em;
+    margin: 10px 8px 10px 8px;
+    padding: 1%;
+}
+.youtube-video
+{
+    max-width: 760px;
+    height: 40%;
+    width: 60%;
+    max-height:413px;
+    margin: 0px auto;
+    position: absolute;
+    top: 350px;
+    left: 50%;
+    transform: translate(-50%);
+}
+.video
+{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    margin: 0px auto;    
+}
+section
+{
+    max-width: 1100px;
+    width: 100%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.text-start
+{
+    width: 100%;
+    max-width: 850px;
+    padding-top: 300px;
+}
+header
+{
+    background-image: url("../pic/background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+    position: relative;
+}
+article,section,div
+{
+    position: relative;
+    z-index: 4;
+}
+h1,h2,h3,h4,h5,b
+{
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+body
+{
+    line-height: 1.5;
+    font-family: Roboto,sans-serif,Arial;
+}
+.my-button
+{
+    padding: 1.5% 4% 1.5% 4%;
+}
+.download
+{
+    background: #FC6042;
+    color: white;
+    transition: all 0.3s;
+}
+.readmore
+{
+    background: transparent;
+    color: white;
+    border: 1px dotted white;
+    transition: all 0.3s;
+}
+.readmore:hover
+{
+    background: #EEE657;
+    color: #232222;
+    transition: all 0.3s;
+}
+.download:hover
+{
+    background: #ec4e2f;
+    color: white;
+    transition: all 0.3s;
+}
+footer
+{
+    padding: 2%;
+    text-align: center;
+    margin-top: 4%;
+    background: #232222;
+    color: white;
+    width: 100%;
+}
+article
+{
+    position: relative;
+}
+.icon-holder
+{
+    text-align: center;
+}
+.icon-holder i
+{
+    font-size: 5em;
+    color: #2CC990;
+}

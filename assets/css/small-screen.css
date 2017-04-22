@@ -1,0 +1,10 @@
+.youtube-video
+{
+    max-width: 760px;
+    height: 30%;
+    width: 90%;
+    max-height:413px;
+    margin: 0px auto;
+    position: absolute;
+    top: 350px;
+}
