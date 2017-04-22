@@ -71,10 +71,11 @@ h1,h2,h3,h4,h5,b
 }
 body
 {
+    overflow-x:hidden; 
     line-height: 1.5;
     font-family: Roboto,sans-serif,Arial;
-    background: #f5f3f3;
-    font-size: 1.5em;
+    background: white;
+    font-size: 1.7em;
 }
 .my-button
 {
@@ -85,6 +86,10 @@ body
     background: #FC6042;
     color: white;
     transition: all 0.3s;
+}
+.highlight
+{
+    background: #EEE657;
 }
 .readmore
 {
@@ -117,7 +122,7 @@ footer
 article
 {
     position: relative;
-    background: #f5f3f3;
+    background: white;
 }
 .icon-holder
 {
