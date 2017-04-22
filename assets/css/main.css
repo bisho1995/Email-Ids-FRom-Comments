@@ -84,6 +84,8 @@ body
 {
     line-height: 1.5;
     font-family: Roboto,sans-serif,Arial;
+    background: #f5f3f3;
+    font-size: 1.5em;
 }
 .my-button
 {
@@ -126,6 +128,7 @@ footer
 article
 {
     position: relative;
+    background: #f5f3f3;
 }
 .icon-holder
 {
