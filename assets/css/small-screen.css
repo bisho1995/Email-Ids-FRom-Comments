@@ -1,3 +1,4 @@
+
 .youtube-video
 {
     max-width: 760px;
@@ -7,4 +8,24 @@
     margin: 0px auto;
     position: absolute;
     top: 350px;
+    
+    transform: translate(-50%);
+    -moz-transform: translate(-50%);
+    -webkit-transform: translate(-50%);
+    -ms-transform: translate(-50%);
+    -o-transform: translate(-50%);
+}
+
+
+.text-start
+{
+    transform: translate(-50%);
+    -moz-transform: translate(-50%);
+    -webkit-transform: translate(-50%);
+    -ms-transform: translate(-50%);
+    -o-transform: translate(-50%);
+}
+.text-start > section
+{
+    padding: 2%;
 }
