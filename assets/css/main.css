@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Lato');
 *{
-    
+
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
@@ -33,7 +33,7 @@ header h1
 .video
 {
     height: 100%;
-    width: 100%; 
+    width: 100%;
 }
 section
 {
@@ -42,6 +42,10 @@ section
     position: relative;
     left: 50%;
     transform: translate(-50%);
+    -o-transform: translate(-50%);
+    -ms-transform: translate(-50%);
+    -webkit-transform: translate(-50%);
+    -moz-transform: translate(-50%);
     margin-top: 5%;
     margin-bottom: 5%;
 }
@@ -71,7 +75,7 @@ h1,h2,h3,h4,h5,b
 }
 body
 {
-    overflow-x:hidden; 
+    overflow-x:hidden;
     line-height: 1.5;
     font-family: Roboto,sans-serif,Arial;
     background: white;
@@ -132,4 +136,14 @@ article
 {
     font-size: 5em;
     color: #2CC990;
+}
+table{
+  margin:0px auto;
+  text-align: center;
+  font-size: 0.9em;
+}
+table td
+{
+  border:1px dotted black;
+  padding: 2%;
 }
