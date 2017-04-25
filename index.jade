@@ -1,153 +1,148 @@
-//output: index.html
-
 doctype html
 html(lang='en')
-	head
-		meta(charset='utf-8')
-		meta(name='viewport', content='width=device-width, initial-scale=1.0')
-		link(rel='stylesheet', type='text/css', href='https://cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.min.css')
-		// Latest compiled and minified CSS
-		link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css')
-		// jQuery library
-		script(src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js')
-		// Latest compiled JavaScript
-		script(src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js')
-		link(rel='stylesheet', type='text/css', href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css')
-		link(rel='stylesheet', type='text/css', href='assets/css/main.css')
-		link(rel='stylesheet', href='assets/css/small-screen.css', media='screen and (max-width: 760px)')
-		link(rel='stylesheet', href='assets/css/even-smaller-screen.css', media='screen and (max-width: 563px)')
-		link(rel="icon",href="assets/pic/logo.png")
-		title Email Id from Comments |  WordPress plugin |Bisvarup Mukherjee
-	body
-		article
-			header.container-fluid
-				div
-					h1 Email Ids From Comments
-				div
-					a(href='assets/docs/zip.zip', target='_blank')
-						button.btn.download.my-button(data-toggle='tooltip', title='Click here to download the plugin') Download
-					a(href='#main-content')
-						button.btn.readmore.my-button(data-toggle='tooltip', title='Click here to read more about the plugin') Read More
-				section.youtube-video
-					iframe.video(src='https://www.youtube.com/embed/CDGbRkgho9Y', frameborder='0', allowfullscreen='')
-			#main-content.text-start.container-fluid
-				section
-					h2 Stats
-					table
-						tr
-							td Name
-							td Email Ids From Comments
-						tr
-							td Version
-							td 1.0
-						tr
-							td Author
-							td Bisvarup Mukherjee
-						tr
-							td Language
-							td php
-						tr
-							td Logo
-							td 
-								img(src="assets/pic/logo.png",height="60px")
-				section
-					h2 Description
-					div
-						p
-							| This is a very simple plugin with just one feature. It gets the email ids of all the people who have commented
-							| on your website(any page).
-						p
-							b How this works ?
-						p
-							| WordPress maintains a database table which contains all the comments and and their details
-							| (eg user name, email id etc). What this plugin does is it extracts all those email ids
-							| from the table and displays it on the screen.
-						p
-							| Please note that it can extract  the email ids of only comments which are there in your
-							| WebPage, for example if you deleted a comment manually it cannot get that email id.
-						p
-							b The author of the plugin is not responsible for any damage done by the plugin.
-							|  This plugin
-							|                         has been tested both in localhost(home server example xampp/lamp) and in production server(actual
-							|                         web server). It works great in both the above places and no problems has been caused by this plugin.
-				hr
-				section.container
-					h2(style="text-align:center") Features
-				section
-					.row
-						.col-sm-6
-							div
-								h3
-									| Open Source
-								p.icon-holder
-									i.fa.fa-code(aria-hidden='true')
-								.highlight
-									p
-										| This plugin is completly open source, which means you can see the source code and can edit the code
-										| as per your wish without any issues. The license associated with this plugin is
-										b GPLv2
-										| .
-									p
-										| It's implied that if you edit the souce code I am in no way responsible for any damage that the code
-										| does. Its completly your responsibility.
-									p
-						.col-sm-6
-							div
-								h3 Free
-								p.icon-holder
-									i.fa.fa-inr(aria-hidden='true')
-								.highlight
-									p
-										| This product is 100% free and you can share it as many times as you wish.You need not spend
-										| a dime for this and there is no
-										b pro
-										|  version unlike other plugins.
-					.row
-						.col-sm-6
-							div
-								h3
-									| User Oriented
-								p.icon-holder
-									i.fa.fa-user-circle(aria-hidden='true')
-								.highlight
-									p
-										| The plugin was made keeping users' convenience in mind. It has a simple interface and
-										| you can get the email ids just by clicking a tab. It takes second position from the top
-										| in your admin dashboard's icons.
-						.col-sm-6
-							div
-								h3 Support
-								p.icon-holder
-									i.fa.fa-envelope(aria-hidden='true')
-								.highlight
-									p
-										| You can get any support you want for this plugin by contacting me at
-										| codeworks0301@gmail.com. All queries will be responded within 7 working days
-										| (It should not take that long to respond).
-				section
-					div
-						h2 Need Help?
-					div 
-						form.form-inline(method="post",action="https://formspree.io/codeworks0301@gmail.com",style="text-align:center")
-							br
-							label.form-control(for="name") Enter your name
-							input.form-control(type="text",name="name",placeholder="John")
-							br
-							label.form-control Enter your email id
-							input.form-control(type="email",name="email",placeholder="joe@gmail.com")
-							br
-							label.form-control Enter your message
-							textarea.form-control(name="msg")
-							br
-							input.btn.btn-primary(type="submit",value="Send Message",name="submit",style="font-size:1em;")
-					section
-						div
-							br
-							br
-							br
-							p(style="text-align:center")
-								b Support at codeworks0301@gmail.com
-			footer.container-fluid
-				div
-					p
-						| Site designed and developed by Bisvarup Mukherjee | © 2017
+  head
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    link(rel='stylesheet', type='text/css', href='https://cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.min.css')
+    // Latest compiled and minified CSS
+    link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css')
+    // jQuery library
+    script(src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js')
+    // Latest compiled JavaScript
+    script(src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js')
+    link(rel='stylesheet', type='text/css', href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css')
+    link(rel='stylesheet', type='text/css', href='assets/css/main.css')
+    link(rel='stylesheet', href='assets/css/small-screen.css', media='screen and (max-width: 760px)')
+    link(rel='stylesheet', href='assets/css/even-smaller-screen.css', media='screen and (max-width: 563px)')
+    link(rel='icon', href='assets/pic/logo.png')
+    title Email Id from Comments |  WordPress plugin |Bisvarup Mukherjee
+  body
+    article
+      header.container-fluid
+        div
+          h1 Email Ids From Comments
+        div
+          a(href='assets/docs/zip.zip', target='_blank')
+            button.btn.download.my-button(data-toggle='tooltip', title='Click here to download the plugin') Download
+          a(href='#main-content')
+            button.btn.readmore.my-button(data-toggle='tooltip', title='Click here to read more about the plugin') Read More
+        section.youtube-video
+          iframe.video(src='https://www.youtube.com/embed/CDGbRkgho9Y', frameborder='0', allowfullscreen='')
+      #main-content.text-start.container-fluid
+        section
+          h2 Stats
+          table
+            tr
+              td Name
+              td Email Ids From Comments
+            tr
+              td Version
+              td 1.0
+            tr
+              td Author
+              td Bisvarup Mukherjee
+            tr
+              td Language
+              td php
+            tr
+              td Logo
+              td
+                img(src='assets/pic/logo.png', height='60px')
+        section
+          h2 Description
+          div
+            p
+              | This is a very simple plugin with just one feature. It gets the email ids of all the people who have commented
+              | on your website(any page).
+            p
+              b How this works ?
+            p
+              | WordPress maintains a database table which contains all the comments and and their details
+              | (eg user name, email id etc). What this plugin does is it extracts all those email ids
+              | from the table and displays it on the screen.
+            p
+              | Please note that it can extract  the email ids of only comments which are there in your
+              | WebPage, for example if you deleted a comment manually it cannot get that email id.
+            p
+              b The author of the plugin is not responsible for any damage done by the plugin.
+              |  This plugin
+              |                                       has been tested both in localhost(home server example xampp/lamp) and in production server(actual
+              |                                       web server). It works great in both the above places and no problems has been caused by this plugin.
+        hr
+        section.container
+          h2(style='text-align:center') Features
+        section
+          .row
+            .col-sm-6
+              div
+                h3 Open Source
+                p.icon-holder
+                  i.fa.fa-code(aria-hidden='true')
+                .highlight
+                  p
+                    | This plugin is completly open source, which means you can see the source code and can edit the code
+                    | as per your wish without any issues. The license associated with this plugin is
+                    b GPLv2
+                    | .
+                  p
+                    | It's implied that if you edit the souce code I am in no way responsible for any damage that the code
+                    | does. Its completly your responsibility.
+                  p
+            .col-sm-6
+              div
+                h3 Free
+                p.icon-holder
+                  i.fa.fa-inr(aria-hidden='true')
+                .highlight
+                  p
+                    | This product is 100% free and you can share it as many times as you wish.You need not spend
+                    | a dime for this and there is no
+                    b pro
+                    |  version unlike other plugins.
+          .row
+            .col-sm-6
+              div
+                h3 User Oriented
+                p.icon-holder
+                  i.fa.fa-user-circle(aria-hidden='true')
+                .highlight
+                  p
+                    | The plugin was made keeping users' convenience in mind. It has a simple interface and
+                    | you can get the email ids just by clicking a tab. It takes second position from the top
+                    | in your admin dashboard's icons.
+            .col-sm-6
+              div
+                h3 Support
+                p.icon-holder
+                  i.fa.fa-envelope(aria-hidden='true')
+                .highlight
+                  p
+                    | You can get any support you want for this plugin by contacting me at
+                    | codeworks0301@gmail.com. All queries will be responded within 7 working days
+                    | (It should not take that long to respond).
+        section
+          div
+            h2 Need Help?
+          div
+            form(method='post', action='https://formspree.io/codeworks0301@gmail.com', style='text-align:center')
+              br
+              label.form-control(for='name') Enter your name
+              input.form-control(type='text', name='name', placeholder='John')
+              br
+              label.form-control Enter your email id
+              input.form-control(type='email', name='email', placeholder='joe@gmail.com')
+              br
+              label.form-control Enter your message
+              textarea.form-control(name='msg')
+              br
+              input.btn.btn-primary(type='submit', value='Send Message', name='submit', style='font-size:1em;')
+          section
+            div
+              br
+              br
+              br
+              p(style='text-align:center')
+                b Support at codeworks0301@gmail.com
+      footer.container-fluid
+        div
+          p Site designed and developed by Bisvarup Mukherjee | © 2017
